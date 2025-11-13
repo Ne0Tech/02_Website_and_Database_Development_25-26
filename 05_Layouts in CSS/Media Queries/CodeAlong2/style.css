@@ -1,24 +1,43 @@
 :root {
-
+    --bg:lightgray;
+    --fg:#0f172a;
+    --brand:green;
+    --nav-bg:purple;
 }
 
 * {
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0px;
+    font-family: system-ui, sans-serif;
+    color: var(--fg);
+    background-color: var(--bg);
 }
 
 .brand {
+    color: blue;
+    background-color: var(--brand);
+    font-weight: 700;
+    padding: 1rem;
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 .nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: .5rem .75rem;
+    border-radius: .5rem;
 }
 
 .nav a:hover {
-
+background-color:rgba(0,0,0,0.5);
 }
 
 .content {

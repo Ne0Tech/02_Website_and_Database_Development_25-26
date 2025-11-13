@@ -5,6 +5,10 @@
     place-items: center;
     padding: 4rem 1.5rem;
 
+    background-image:
+            radial-gradient(rgba(128,128,128,0.3) 0%, rgba(128,128,128,0.9) 90%),
+            linear-gradient(135deg, #6a5af9 0%, #b65ef1 45%, #ff7ac3 100%);
+
 
 }
 
