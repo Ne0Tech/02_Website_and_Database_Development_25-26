@@ -26,18 +26,23 @@ div {
 }
 
 #example-2 {
+
 }
 
 #example-2:hover {
+    width: 300px
 }
 
 #example-3 {
+
 }
 
 #example-3:hover {
+
 }
 
 .timing {
+
 }
 
 #example-4:hover {
@@ -77,25 +82,33 @@ div {
 }
 
 #example-12:hover {
+
 }
 
 #example-13:hover {
+
 }
 
 .delay{
+
 }
 
 #example-14:hover {
+
 }
 
 button {
+
 }
 
 button:hover {
+
 }
 
 #example-15{
+
 }
 
 #example-15:hover {
+
 }
